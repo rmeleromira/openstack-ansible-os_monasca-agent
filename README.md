@@ -33,7 +33,7 @@ openstack-ansible repo-build.yml
 
 ### Skips repo & utility containers
 
-By default, this skips the repo and utility containers as they do not host openstack services. Set ```skip_repo_utility_hosts``` to ```false``` to install the agent on those hosts as well.
+By default, this skips the repo and utility containers as they do not host openstack services. 
 
 ### Generate host_alive checks
 

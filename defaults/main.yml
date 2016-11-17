@@ -11,8 +11,9 @@ monasca_agent_password: test
 monasca_agent_project_name: monasca-agent
 monasca_agent_role_name: monasca-agent
 host_alive_check_hosts:
+  - aio1_ceilometer_api_container-a72fed49
+  - aio1_aodh_container-cd3fb93a
+  - aio1_ceilometer_collector_container-1374555e
 extra_host_alive_checks:
-  - { hostname: 'test1',ip:'1.1.1.1' }
-  - { hostname: 'test2',ip:'2.2.2.2' }
-# implement
-skip_repo_utility_hosts: true
+  # - { hostname: 'test1', ip: '1.1.1.1' }
+  # - { hostname: 'test2', ip: '2.2.2.2' }
